@@ -1,0 +1,192 @@
+
+html {
+    color: white;
+    max-width: 1200px;
+    overflow-x: hidden;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: #66C3D1;
+    font-size: 20px;
+    position: relative;
+}
+
+body {
+    display: inline;
+}
+
+.title-bar {
+    display: flex;
+    margin: auto;
+    height: 80px;
+    width: 90%;
+    justify-content: space-between;
+    background-color: #479AD1;
+    padding: 5px 2%; 
+    color: white;
+}
+
+.title-bar h1, h2 {
+    vertical-align: center;
+}
+
+.hero {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.hero img {
+    margin-top: 20px;
+}
+
+.hero a {
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.leader-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leader-cards img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.ceo {
+    margin: 0 100px; 
+}
+
+.cto {
+    margin: 0 100px;
+}
+
+.on-platform-value {
+    display: inline;
+    justify-content: space-between;
+    width: auto;
+    
+}
+
+.on-platform-value ul {
+    margin-top: 20px;
+    list-style-type: none;
+    background-color: #479AD1;
+    padding: 40px 0;
+}
+
+.on-platform-value img {
+    height: 250px;
+    width: 250px;
+}
+
+.team-header {
+    margin-top: 80px;
+}
+
+.footer-body ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: -2%;
+    margin-top: -12px;
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 1201px) {
+
+    .title-bar {
+        height: 70px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .hero img {
+        max-height: 350px;
+        max-width: 550px;
+    }
+
+    .leader-cards img {
+        max-height: 205px;
+        max-width: 205px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 1025px) {
+
+    .title-bar {
+        height: 60px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .hero img {
+        max-height: 300px;
+        max-width: 500px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 768px) {
+      
+    .title-bar {
+        height: 50px;
+    }
+
+    .hero img {
+        max-height: 250px;
+        max-width: 450px;
+    }
+
+    .leader-cards img {
+        max-height: 170px;
+        max-width: 170px;
+    }
+
+    .ceo {
+        margin: 0 75px;
+    }
+
+    .cto {
+        margin: 0 75px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+      
+    .links {
+          display: none;
+      }
+
+    .title-bar {
+        height: 45px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .leader-cards {
+        font-size: 16px;
+    } 
+
+    .leader-cards img {
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .ceo {
+        margin: 0 50px;
+    }
+
+    .cto {
+        margin: 0 50px;
+    }
+  }
