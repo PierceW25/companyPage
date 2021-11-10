@@ -7,3 +7,9 @@
 ## Technologies
 + HTML
 + CSS
+
+## Launch
++ Go to the environments section of the repository(bottom right)
++ Click on github pages
++ Click on view deployment
++ The page will load in a new window
